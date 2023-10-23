@@ -11,6 +11,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { IdeasComponent } from './ideas/ideas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { IdeasComponent } from './ideas/ideas.component';
     MatTabsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatDialogModule
+    MatDialogModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
